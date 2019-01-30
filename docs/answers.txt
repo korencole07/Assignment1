@@ -1,0 +1,30 @@
+a. 	Counting objects: 7, done.
+	Delta compression using up to 56 threads.
+	Compressing objects: 100% (3/3), done.
+	Writing objects: 100% (4/4), 412 bytes | 0 bytes/s, done.
+	Total 4 (delta 1), reused 0 (delta 0)
+	remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+	To https://github.com/korencole07/Assignment1.git
+	   e95a174..ecbf5f2  master -> master
+
+b.	There have been 5 commits to the repository total.
+  	Git command used: git shortlog
+
+c.	The .gitignore file was last modifed on :Date:   Thu Jan 10 16:45:38 2019 -0500
+	Git commane used: git log .gitignore
+
+d. 	Branches are used in a git repository in order to have differnt threads of development that can run on the same code base.  Another reason branches are used is to test and develop a certain portion of code without affecting the original code, and also being able to easily implement the new portions of code into the original using merging.  Branches can also be easily made and deleted with small amount of memory taken. 
+
+e.	The command git log is used in order to shows all of the commits of the current branch's history, while git status is used to show the status of the working tree, which are staged for the next commit. 
+
+f. 	The command git log -S"Weapon.h" finds where Weapon.h was a committed file.
+
+g.	The command git log --grep"file" finds which commit messages contains the word "file". 
+
+h.	Inheritance enables classes to recieve, or inherit, properties and methods from existing classes.  For example, a parent class and a child class.  The child class is inherited from the parent class and contains the methods and properties from the parent class. 
+	Polymorphism is the ability of classes to have the same interface (or function) for different underlying classes.  For example, a parent class, Shape, could have children Square, Triangle, and Circle.  Each of the children has a function called Draw, and within the program, shape.Draw() can be called, and will be usedto draw the shape in the correct way depending on the identity of the child class.  
+	Encapsulation is the concept in which within a class, data is not accessed directly, but instead through functions within the class.  The data of a class is kept private and public methods, for eample GetHeight() and SetHeight() are used to manipulate the private variable height.  
+	
+i.	The main difference in these two workflows is that in Director/Lieutenant, everyone makes pull changes from a central repository, and developers push changes to Lieutenant repositories, which merge and solves conflicts, and then a Dictator repositroy merges and solves conflicts from Lieutenant repositories and pushes to the central repository.   In the Integration Management workflow, every developer can pull from the central and push changes to their private repository, then a manager manages conflicts and pushes to the central repository. 
+
+h.	100 developers would benefit more from the Dictator/Lietenant workflow than the Centralized workflow since the push abilities are limited to the Dictator repository.  The mergins and solving of conflicts happens in stages over many levels which reduces the time needed to work with such changes for each individual devloper.  
