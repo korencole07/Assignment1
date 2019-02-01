@@ -18,10 +18,13 @@ using namespace std;
  * printing its damage on standard output. 
  * @param weapon Weapon to simulate
  * @param armor Armor points
+ * Third test simulates more armor
  */
 void simulateWeapon(Weapon * weapon, double armor) {
     cout << weapon->getName() << " inflicts " << weapon->hit() << " when armor is 0" << std::endl;
-    cout << weapon->getName() << " inflicts " << weapon->hit(armor) << " when armor is " << armor << std::endl << std::endl;
+    cout << weapon->getName() << " inflicts " << weapon->hit(armor) << " when armor is " << armor << std::endl;
+	cout << weapon->getName() << " inflicts " << weapon->hit(armor+20) << " when armor is " << armor + 20 << endl;
+	cout << endl;
 }
 
 /*
@@ -38,6 +41,10 @@ int main(int argc, char** argv) {
     weapon = WeaponFactory::getInstance()->getWeapon("spear");
     simulateWeapon(weapon, armor);
     delete(weapon);
+
+	weapon = WeaponFactory::getInstance()->getWeapon("hammer");
+	simulateWeapon(weapon, armor);
+	delete(weapon);
 
     return 0;
 }

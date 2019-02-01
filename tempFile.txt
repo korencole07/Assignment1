@@ -1,0 +1,9 @@
+Counting objects: 7, done.
+Delta compression using up to 56 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 412 bytes | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/korencole07/Assignment1.git
+   e95a174..ecbf5f2  master -> master
+
