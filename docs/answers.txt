@@ -27,4 +27,9 @@ h.	Inheritance enables classes to recieve, or inherit, properties and methods fr
 	
 i.	The main difference in these two workflows is that in Director/Lieutenant, everyone makes pull changes from a central repository, and developers push changes to Lieutenant repositories, which merge and solves conflicts, and then a Dictator repositroy merges and solves conflicts from Lieutenant repositories and pushes to the central repository.   In the Integration Management workflow, every developer can pull from the central and push changes to their private repository, then a manager manages conflicts and pushes to the central repository. 
 
-h.	100 developers would benefit more from the Dictator/Lietenant workflow than the Centralized workflow since the push abilities are limited to the Dictator repository.  The mergins and solving of conflicts happens in stages over many levels which reduces the time needed to work with such changes for each individual devloper.  
+h.	100 developers would benefit more from the Dictator/Lietenant workflow than the Centralized workflow since the push abilities are limited to the Dictator repository.  The mergins and solving of conflicts happens in stages over many levels which reduces the time needed to work with such changes for each individual devloper. 
+
+RoleGame OOP principles
+
+The prototype is using both encapsulation and polymorhism.  Encapsulation is seen through the use of the function
+getName(), as the name is fetched from each instance.  Polymorphism is seen throughout the use of the hit() functions.  The main weapon class has a hit function, and each child also has a hit function which is defined in a different way that is specific to each child class.   
