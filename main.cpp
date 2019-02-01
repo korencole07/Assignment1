@@ -1,7 +1,7 @@
 
 /* 
  * File:   main.cpp
- * Author: Javier <jrescobara@gmail.com> 
+ * Author: Javier <jrescobara@gmail.com>, Koren Cole <korencole07@gmail.com> 
  *
  * Created on September 25, 2017, 3:19 PM
  */

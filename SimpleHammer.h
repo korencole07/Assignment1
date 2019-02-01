@@ -1,3 +1,9 @@
+/* 
+ * File:   SimpleHammer.h
+ * Author: Koren Cole <korencole07@gmail.com>
+ * 
+ * Created on February 1, 2019
+ */
 #include <string>
 #include "Weapon.h"
 

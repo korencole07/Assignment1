@@ -1,3 +1,9 @@
+/* 
+ * File:   CommonArrow.cpp
+ * Author: Koren Cole <korencole07@gmail.com>
+ * 
+ * Created on February 1, 2019
+ */
 
 #include "CommonArrow.h"
 #include <ctime>

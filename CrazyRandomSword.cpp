@@ -1,3 +1,10 @@
+/* 
+ * File:   CrazyRandomSpear.cpp
+ * Author: Koren Cole <korencole07@gmail.com>
+ * 
+ * Created on February 1, 2019
+ */
+
 #include "CrazyRandomSword.h"
 #include <ctime>
 #include <cstdlib>
