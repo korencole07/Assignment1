@@ -23,8 +23,8 @@ using namespace std;
 void simulateWeapon(Weapon * weapon, double armor) {
     cout << weapon->getName() << " inflicts " << weapon->hit() << " when armor is 0" << std::endl;
     cout << weapon->getName() << " inflicts " << weapon->hit(armor) << " when armor is " << armor << std::endl;
-	cout << weapon->getName() << " inflicts " << weapon->hit(armor+20) << " when armor is " << armor + 20 << endl;
-	cout << endl;
+	cout<<"Now with more armor: " << endl;
+    cout << weapon->getName() << " inflicts " << weapon->hit(armor+21) << " when armor is " << armor +21 << std::endl << std::endl;
 }
 
 /*
@@ -41,6 +41,10 @@ int main(int argc, char** argv) {
     weapon = WeaponFactory::getInstance()->getWeapon("spear");
     simulateWeapon(weapon, armor);
     delete(weapon);
+
+	weapon = WeaponFactory::getInstance()->getWeapon("hammer");
+	simulateWeapon(weapon, armor);
+	delete(weapon);
 
 	weapon = WeaponFactory::getInstance()->getWeapon("hammer");
 	simulateWeapon(weapon, armor);
